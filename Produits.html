@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Produits.css">
+  <title> Produits </title>
+</head>
+
+<body>
+  <header>
+
+    <div>
+      <h1 class="name"> Modest and Fashionable clothes </h1>
+    </div>
+
+    <div class="box">
+      <form>
+        <input placeholder="Que désirez-vous ?" type="text" name="search"
+          style="border-radius: 18px; border-color: rgb(237, 66, 200);margin-top:50px; padding-left: 20px; height: 30px; width: 270px;" />
+      </form>
+    </div>
+
+  </header>
+  <main>
+     
+    <div class="Pr1">
+      <div>
+        <img src="abaya-dubai-aria-noire.jpg" style="width: 280px; height: 300px;" />
+        <div class='nom'>
+          <p class="Prix"> Abaya-Dubai-aria-noire</p>
+          <img class="bouton-coeur" src = "heart.png" alt = "heart" onclick="favori (0)">
+        </div>
+      </div>
+      <p> 
+        <span>Prix:</span>
+        <span class="valeur"> 106.82 </span>
+        <span>Euro</span>
+      </p>
+      <div class="touches">
+        <button class="boutonmoins">-</button>
+        <div class="quantité">0</div>
+        <button class="boutonplus">+</button>
+      </div>
+    </div>
+
+    <div class="Pr1">
+      <div>
+        <img src="abaya-dubai-hassiba-glossy-brown.jpg" style="width: 280px; height: 300px;" />
+        <div class='nom'>
+          <p class="Prix"> Abaya-Dubai-hassiba-glossy-brown</p>
+          <img class="bouton-coeur" src = "heart.png" alt = "heart" onclick="favori (1)">
+        </div>
+      </div>
+      <p> 
+        <span>Prix:</span>
+        <span class="valeur"> 106.82 </span>
+        <span>Euro</span>
+      </p>
+      <div class="touches">
+        <button class="boutonmoins">-</button>
+        <div class="quantité">0</div>
+        <button class="boutonplus">+</button>
+      </div>
+    </div>
+
+    <div class="Pr1">
+      <div>
+        <img src="abaya-dubai-nawane-bottle-green.jpg" style="width: 280px; height: 300px;" />
+        <div class='nom'>
+          <p class="Prix"> Abaya-Dubai-nawane-bottle-green</p>
+          <img class="bouton-coeur" src = "heart.png" alt = "heart" onclick="favori (2)">
+        </div>
+      </div>
+      <p> 
+        <span>Prix:</span>
+        <span class="valeur"> 106.82 </span>
+        <span>Euro</span>
+      </p>
+      <div class="touches">
+        <button class="boutonmoins">-</button>
+        <div class="quantité">0</div>
+        <button class="boutonplus">+</button>
+      </div>
+    </div>
+    <p><span >Total:</span>
+      <span id="totalprice"> 0</span>
+    </p>
+        
+  </main>
+  <script src=".\Produits.js"></script>
+</body>
+
+</html>
